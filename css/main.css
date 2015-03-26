@@ -1,0 +1,271 @@
+div.clear {
+	clear: both;
+}
+
+
+body {
+	/*font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
+	font-family: 'Share Tech Mono', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	/*height: 1000px;*/
+	color: #5D478B;
+	/*background-color: white;*/
+	}
+
+a {
+	color: #5D478B;	
+}
+	a:hover {
+		color: #5D478B;
+	}
+
+/*Change highlight colors*/
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #5D478B;
+}
+
+::selection {
+    color: white; 
+    background: #5D478B;
+}
+
+/*List styling*/
+ul.liststyle {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+p.p-liststyle {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	color: #5D478B;
+}
+
+/*Navbar Styling*/
+.navbar {
+	height: 75px;
+	border-bottom: 2px solid #5D478B;
+}
+
+	.navbar-header, .navbar-collapse {
+		margin-top: 12px; /* This adjusts the vertical allignment of the nav links */
+	}
+
+.navCustom {
+	color: pink;
+}
+
+/* This pushes the nav links apart*/
+div ul li {
+	margin-left: 15px;
+}
+	/*This makes the NAV links stand out a bit more*/
+	div ul li a {
+		/*font-family: Arial, Helvetica, sans-serif; */
+	}
+
+	/* This makes sure the dropdown nav links aren't pushed to the right too far*/
+	div ul li ul li {
+		margin-left: 5px;
+	}
+
+
+
+
+/*Bio styling */
+.bio {
+	line-height: 40px;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	/*border-top: 2px solid #5D478B;*/
+}
+	.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+
+
+.home-div {
+	position: relative;
+	margin-top: 100px;
+}
+
+.description {
+	font-style: italic;
+	font-weight: bolder;
+	color: #5D478B;
+	font-size: 1.25em;
+}
+
+.soundcloud-p {
+	display: inline;
+}
+
+
+#soundcloud-iframe {
+	display: block;
+	margin: 0 auto;
+	height: 550px;
+	border-top: 2px solid #5D478B;
+}
+
+
+.centered {
+	display: block;
+	margin: 0 auto;
+}
+	.centered iframe {
+		display: block;
+		margin: 0 auto;
+	}
+
+
+/* Contact Page*/
+#submit-button {
+	background-color: #5D478B;
+}
+
+.input-xxlarge {
+	min-height: 150px;
+}
+
+
+
+/* This centers all of the items in the row */
+.marketing .col-lg-4 {
+	text-align: center;
+}
+
+
+footer {
+	height: 75px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	border-top: 2px solid #5D478B;
+	position: relative;
+	bottom: 0;
+}
+
+	footer div {
+		margin-top: 12px;
+	}
+
+
+	footer div p {
+		text-align: center;
+		color: white;
+	}
+
+	.img-footer {
+		max-width: 75px;
+	}
+
+
+
+
+/* ********************* media queries ********************* */
+
+@media all and (max-width:400px) {
+
+	/*This "filler" DIV adds space above and below the separator images */
+	.filler-div {
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+
+	.filler-div-bottom {
+		margin-top: 250px;
+		/*margin-bottom: 260px;*/
+	}
+	
+
+	#soundcloud-iframe {
+		display: block;
+		margin: 0 auto;
+		height: 250px; 
+	}
+
+	.break {
+		width: 100%;
+		height: 75px;
+		display: block;
+	}
+
+}
+
+
+@media all and (max-width:768px) {
+
+	/*This "filler" DIV adds space above and below the separator images */
+	.filler-div {
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+
+	.filler-div-bottom {
+		margin-top: 250px;
+		/*margin-bottom: 260px;*/
+	}
+
+	body {
+		background-color: white;
+		}
+
+	.navbar-collapse {
+	background-color: black;
+	}
+
+	.break {
+		width: 100%;
+		height: 50px;
+		display: block;
+	}
+
+}
+
+
+@media all and (min-width:768px) {
+
+	body {
+		background: url(../images/cardioidBG.png) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		/*background-color: white;*/
+		}
+
+	/*This "filler" DIV adds space above and below the separator images */
+	.filler-div {
+		margin-top: 500px;
+		margin-bottom: 500px;
+	}
+
+	.filler-div-bottom {
+		margin-top: 250px;
+	}
+
+	.navbar-collapse {
+	background-color: inherit;
+	}
+
+	.break {
+		width: 100%;
+		height: 100px;
+		display: block;
+	}
+
+}
+
+
