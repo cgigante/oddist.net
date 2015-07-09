@@ -18,6 +18,10 @@ a {
 		color: #5D478B;
 	}
 
+#thank-you, #friends, #listen {
+	margin-top: 500px;
+}
+
 /*Change highlight colors*/
 ::-moz-selection { /* Code for Firefox */
     color: white;
@@ -71,12 +75,20 @@ div ul li {
 	}
 
 
+.description {
+	font-style: italic;
+	font-weight: bolder;
+	color: #5D478B;
+	font-size: 1.25em;
+}
 
 
 /*Bio styling */
 .bio {
 	line-height: 40px;
+	/*background-color: white;*/
 }
+
 
 
 .videoWrapper {
@@ -98,14 +110,11 @@ div ul li {
 .home-div {
 	position: relative;
 	margin-top: 100px;
+	/*background-color: white;
+	border: 2px solid #5D478B;*/
 }
 
-.description {
-	font-style: italic;
-	font-weight: bolder;
-	color: #5D478B;
-	font-size: 1.25em;
-}
+
 
 .soundcloud-p {
 	display: inline;
@@ -238,12 +247,13 @@ footer {
 @media all and (min-width:768px) {
 
 	body {
-		background: url(../images/cardioidBG.png) no-repeat center center fixed; 
+		/*background: url(../images/cardioidBG.png) no-repeat center center fixed;*/ 
+		/*background: url(../images/bg3.jpg) no-repeat center center fixed;
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
-		  background-size: cover;
-		/*background-color: white;*/
+		  background-size: cover;*/
+		background-color: white;
 		}
 
 	/*This "filler" DIV adds space above and below the separator images */

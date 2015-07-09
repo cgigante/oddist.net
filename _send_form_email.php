@@ -28,7 +28,7 @@ Comments: $comments
 mail($myemail, $subject, $telephone, $comments);
 
 /* Redirect visitor to the thank you page */
-header('Location: index.html');
+header('Location: index.php');
 exit();
 
 /* Functions we used */
