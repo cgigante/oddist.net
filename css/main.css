@@ -1,14 +1,18 @@
+/****************************
+General Styling
+****************************/
+
+/* #ecf0f1 - smoke */
+/* #5D478B - purple*/
+
+
 div.clear {
 	clear: both;
 }
 
-
 body {
-	/*font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
 	font-family: 'Share Tech Mono', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	/*height: 1000px;*/
 	color: #5D478B;
-	/*background-color: white;*/
 	}
 
 a {
@@ -18,9 +22,24 @@ a {
 		color: #5D478B;
 	}
 
-#thank-you, #friends, #listen {
-	margin-top: 500px;
+.description {
+	font-style: italic;
+	font-weight: bolder;
+	color: #5D478B;
+	font-size: 1.25em;
 }
+
+
+.home-div {
+	position: relative;
+	margin-top: 100px;
+}
+
+/* This centers all of the items in the row */
+.marketing .col-lg-4 {
+	text-align: center;
+}
+
 
 /*Change highlight colors*/
 ::-moz-selection { /* Code for Firefox */
@@ -33,23 +52,33 @@ a {
     background: #5D478B;
 }
 
-/*List styling*/
+#textLogo {
+
+	/* #ecf0f1 - smoke */
+	/* #5D478B - purple*/
+
+	
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #2980b9), color-stop(0.15, #5D478B), color-stop(0.3, #2980b9), color-stop(0.45, #5D478B), color-stop(0.6, #2980b9),color-stop(0.75, #5D478B), color-stop(0.9, #2980b9), color-stop(1, #5D478B) );
+	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+
+/*************************** 
+Navbar Styling 
+***************************/
+
 ul.liststyle {
 	font-size: 1.2em;
 	line-height: 1.3em;
 	text-align: left;
 }
 
-p.p-liststyle {
-	font-size: 1.25em;
-	line-height: 1.5em;
-	color: #5D478B;
-}
-
-/*Navbar Styling*/
 .navbar {
 	height: 75px;
-	border-bottom: 2px solid #5D478B;
+	opacity: 0.8;
 }
 
 	.navbar-header, .navbar-collapse {
@@ -59,6 +88,11 @@ p.p-liststyle {
 .navCustom {
 	color: pink;
 }
+
+#nav-bar-logo {
+	margin-top: -15px;
+}
+
 
 /* This pushes the nav links apart*/
 div ul li {
@@ -75,59 +109,17 @@ div ul li {
 	}
 
 
-.description {
-	font-style: italic;
-	font-weight: bolder;
-	color: #5D478B;
-	font-size: 1.25em;
+#thank-you, #friends, #listen {
+	margin-top: 500px;
 }
 
 
-/*Bio styling */
+/***************************
+Bio styling 
+***************************/
 .bio {
 	line-height: 40px;
-	/*background-color: white;*/
 }
-
-
-
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	/*border-top: 2px solid #5D478B;*/
-}
-	.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	}
-
-
-
-.home-div {
-	position: relative;
-	margin-top: 100px;
-	/*background-color: white;
-	border: 2px solid #5D478B;*/
-}
-
-
-
-.soundcloud-p {
-	display: inline;
-}
-
-
-#soundcloud-iframe {
-	display: block;
-	margin: 0 auto;
-	height: 550px;
-	border-top: 2px solid #5D478B;
-}
-
 
 .centered {
 	display: block;
@@ -139,23 +131,41 @@ div ul li {
 	}
 
 
-/* Contact Page*/
+/*************************** 
+Friends 
+***************************/
+
+p.p-liststyle {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+	p.p-liststyle a {
+		color: #ecf0f1;
+	}
+
+.friendsDescription {
+	font-style: italic;
+	font-weight: bolder;
+	color: #ecf0f1;
+	font-size: 1.25em;
+}
+
+
+/*************************** 
+Contact 
+***************************/
 #submit-button {
 	background-color: #5D478B;
 }
 
-.input-xxlarge {
-	min-height: 150px;
-}
 
 
 
-/* This centers all of the items in the row */
-.marketing .col-lg-4 {
-	text-align: center;
-}
 
-
+/*************************** 
+Footer 
+***************************/
 footer {
 	height: 75px;
 	width: 100%;
@@ -176,14 +186,15 @@ footer {
 		color: white;
 	}
 
-	.img-footer {
-		max-width: 75px;
-	}
+.img-logo {
+	max-width: 75px;
+}
 
 
 
-
-/* ********************* media queries ********************* */
+/************************************************* 
+media queries 
+*************************************************/
 
 @media all and (max-width:400px) {
 
@@ -228,7 +239,7 @@ footer {
 	}
 
 	body {
-		background-color: white;
+		background: radial-gradient(circle, black, #ecf0f1);
 		}
 
 	.navbar-collapse {
@@ -253,7 +264,11 @@ footer {
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;*/
-		background-color: white;
+		/*background-color: white;*/
+		
+		/*background-image: url("paper.gif");*/
+    	/*background-color: #ecf0f1;*/
+    	background: radial-gradient(circle, black, #ecf0f1);
 		}
 
 	/*This "filler" DIV adds space above and below the separator images */
