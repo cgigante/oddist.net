@@ -62,7 +62,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand active" href="index.php"><img id="nav-bar-logo" class="img-logo" src="images/oddist-signature_white.png" alt="ODDIST logo" title="ODDIST logo" /></a>
+              <a class="navbar-brand active" href="#index"><img id="nav-bar-logo" class="img-logo" src="images/oddist-signature_white.png" alt="ODDIST logo" title="ODDIST logo" /></a>
             </div>
 
             <div class="collapse navbar-collapse">
@@ -134,49 +134,22 @@
 
           <div class="row">
 
-            <div class="col-md-4">
-<!--               <br>
-              
-              <center>
-                <p>New album, <a href="https://oddist.bandcamp.com/album/cant-fail-me-now" target="_blank">CAN'T FAIL ME NOW</a>, available now:</p>
-                <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2325122358/size=large/bgcol=333333/linkcol=9a64ff/minimal=true/transparent=true/" seamless><a href="http://oddist.bandcamp.com/album/cant-fail-me-now">CAN&#39;T FAIL ME NOW by ODDIST</a></iframe>
-              <center>    -->
-
-            </div>
-
-            <div class="col-md-4">
+            <div class="col-sm-12">
               <br>
-              
               <center>
                 <p>New EP, <a href="https://oddist.bandcamp.com/album/not-every-door-is-yours-ep" target="_blank">NOT EVERY DOOR IS YOURS</a>, available now:</p>
                 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1169613114/size=large/bgcol=333333/linkcol=9a64ff/minimal=true/transparent=true/" seamless><a href="http://oddist.bandcamp.com/album/not-every-door-is-yours-ep">NOT EVERY DOOR IS YOURS EP by ODDIST</a></iframe>
               <center>
-
-            <div class="col-md-4">
-<!--               <br>
-              
-              <center>
-                <p>New album, <a href="https://oddist.bandcamp.com/album/cant-fail-me-now" target="_blank">CAN'T FAIL ME NOW</a>, available now:</p>
-                <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2325122358/size=large/bgcol=333333/linkcol=9a64ff/minimal=true/transparent=true/" seamless><a href="http://oddist.bandcamp.com/album/cant-fail-me-now">CAN&#39;T FAIL ME NOW by ODDIST</a></iframe>
-              <center>    -->
-
             </div>
 
-
-
-            </div>
-
-
-
-
-
-            <!-- <div class="col-md-2"></div> -->
           </div>
 
           <div class="row">            
             <div class="col-md-12">
               <center>
-                <p class="description" id="scrolldowntolisten"><a href="#friends"><span class="glyphicon glyphicon-chevron-down"></span></a></p>
+                <p class="description" id="scrolldowntolisten">
+                	<a href="#friends"><span class="glyphicon glyphicon-chevron-down"></span></a>
+                </p>
               </center>
             </div>
           </div>
