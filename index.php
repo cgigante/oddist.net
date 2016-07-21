@@ -41,13 +41,13 @@
         catch(e){window.attachEvent("onload", $buo_f)}
     </script> 
 
-
+    <!-- Google Analytics Code -->
+    <?php include_once("analyticstracking.php") ?>
 
   </head>
 
   <body id="index">
-<!-- Google Analytics Code -->
-<?php include_once("analyticstracking.php") ?>
+
 
 <!-- ##############BEGIN NAVIGATION################ -->
     
