@@ -51,7 +51,7 @@
 
 <!-- ##############BEGIN NAVIGATION################ -->
     
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div id="linearBgNav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           
           <div class="container">
 
@@ -114,34 +114,19 @@
 
         <div class="container">
 
+
           <div class="row">
-            <div class="break1"></br></div>
-            <div class="col-md-12">
+          	<div class="col-sm-2"></div>
+			<div class="col-sm-8">
               <div class="home-div animated fadeIn">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                  <center>
-                    <h3 class="bio">
-                    <!-- <img src="images/oddist-signature_black.png" alt="ODDIST signature" title="ODDIST signature" style="width:70px"> -->
-                      <!-- <span id="textLogo">ODDIST is an electronic music producer</span> -->
-                    </h3>
-                  <center>
-                </div>
-                <div class="col-md-1"></div>
+                <!-- 16:9 aspect ratio -->
+				<div id="main-vid-container" class="embed-responsive embed-responsive-16by9">
+				  <iframe id="main-vid" class="embed-responsive-item" src="https://www.youtube.com/embed/hyHFvM-6ItI" allowfullscreen></iframe>
+				</div>
+				<p><a href="https://oddist.bandcamp.com/track/roma-2" target="_blank">Download "Roma" here</a></p>
               </div>
-            </div> 
-          </div> 
-
-          <div class="row">
-
-            <div class="col-sm-12">
-              <br>
-              <center>
-                <p>New EP, <a href="https://oddist.bandcamp.com/album/not-every-door-is-yours-ep" target="_blank">NOT EVERY DOOR IS YOURS</a>, available now:</p>
-                <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1169613114/size=large/bgcol=333333/linkcol=9a64ff/minimal=true/transparent=true/" seamless><a href="http://oddist.bandcamp.com/album/not-every-door-is-yours-ep">NOT EVERY DOOR IS YOURS EP by ODDIST</a></iframe>
-              <center>
             </div>
-
+            <div class="col-sm-2"></div>
           </div>
 
           <div class="row">            
