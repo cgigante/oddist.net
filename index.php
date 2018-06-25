@@ -119,11 +119,18 @@
           	<div class="col-sm-2"></div>
 			<div class="col-sm-8">
               <div class="home-div animated fadeIn">
+
                 <!-- 16:9 aspect ratio -->
 				<div id="main-vid-container" class="embed-responsive embed-responsive-16by9">
-				  <iframe id="main-vid" class="embed-responsive-item" src="https://www.youtube.com/embed/hyHFvM-6ItI" allowfullscreen></iframe>
+				  <!-- <iframe id="main-vid" class="embed-responsive-item" src="https://www.youtube.com/embed/hyHFvM-6ItI" allowfullscreen></iframe> -->
+          <div class="col-lg-6">
+            <iframe style="border: 0; width: 350px; height: 786px; margin: 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=347362714/size=large/bgcol=333333/linkcol=4ec5ec/transparent=true/" seamless><a href="http://oddist.bandcamp.com/album/alone-together">ALONE TOGETHER by ODDIST</a></iframe>
+          </div>
+          <div class="col-lg-6">
+            <iframe style="border: 0; width: 350px; height: 786px; margin: 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=701574627/size=large/bgcol=333333/linkcol=4ec5ec/transparent=true/" seamless><a href="http://oddist.bandcamp.com/album/assorted-colors-and-flavors">ASSORTED COLORS AND FLAVORS by ODDIST</a></iframe>
+          </div>
 				</div>
-				<p><a href="https://oddist.bandcamp.com/track/roma" target="_blank">Download "Roma" here</a></p>
+				<!-- <p><a href="https://oddist.bandcamp.com/track/roma" target="_blank">Download "Roma" here</a></p> -->
               </div>
             </div>
             <div class="col-sm-2"></div>
